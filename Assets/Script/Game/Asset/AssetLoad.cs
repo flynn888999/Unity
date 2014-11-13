@@ -5,22 +5,7 @@ using System.Collections.Generic;
 using AssetResources = AssetConfigFolder;
 
 
-public class AssetCacheInfo
-{
-    public byte[] binary;
 
-    private AssetBundle bundle;
-    public UnityEngine.AssetBundle Bundle
-    {
-        get { return bundle; }
-        set 
-        { 
-            if (bundle == null)
-                bundle = value; 
-        }
-    }
-
-}
 
 /**
  * 
@@ -115,6 +100,28 @@ public class AssetLoad
     #endregion
 
 
+    /// <summary>
+    /// 加载一批资源并卸载之前的资源
+    /// </summary>
+    public static void LoadAsyncCacheUnloadBefor(string[] resNames)
+    {
+        BetterList<string> unLoad = new BetterList<string>();
+
+        int length = resNames.Length;
+        for (int i = 0; i < length; i++)
+        {
+            if (!IsCache(resNames[i]))
+                unLoad.Add(resNames[i]);
+        }
+
+        foreach (string item in unLoad)
+        {
+            Instance.UnLoadCache(item);
+        }
+
+        LoadAsyncCache(resNames);
+    }
+
 
     /// <summary>
     /// 加载一组资源到缓存列表
@@ -202,7 +209,7 @@ public class AssetLoad
             asyncName = null;
 
             //  单个回调立马派发
-            if (!isLoadArray)
+            if (!isLoadArray && OnLoadAsyncFinish != null)
                 OnLoadAsyncFinish();
         }
         else
@@ -211,6 +218,19 @@ public class AssetLoad
         }
     }
 
+
+    /// <summary>
+    /// 卸载一个缓存
+    /// </summary>
+    /// <param name="resName"></param>
+    private void UnLoadCache(string resName)
+    {
+        if (cacheInfo.ContainsKey(resName))
+        {
+            cacheInfo[resName].UnLoad();
+            cacheInfo.Remove(resName);
+        }
+    }
 
 
 
@@ -223,6 +243,7 @@ public class AssetLoad
     {
         return Instance.cacheInfo.ContainsKey(resName);
     }
+
 
 
 
