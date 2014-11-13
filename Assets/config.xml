@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config Version = "1.0.0">
+	<!--DownURL 连接地址 -->
+	<AssetBundle DownURL = "http://192.168.0.100:8080/HttpServer/AssetBundle" >
+		<Node Name = "prefab001.assetbundle" MD5 = "A2FB74BA1245A90AB8269C8BAF384C7B"/>
+		<Node Name = "prefab002.assetbundle" MD5 = "B9AFA58B5F41B49DED824BA6FA8F31A6"/>
+	</AssetBundle>
+</Config>

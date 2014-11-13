@@ -1,0 +1,1493 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Assets/Lib.meta
+#	new file:   Assets/Lib/Crossblade GUI.meta
+#	new file:   Assets/Lib/Crossblade GUI/Font.meta
+#	new file:   Assets/Lib/Crossblade GUI/Font/Barkentina 1.otf
+#	new file:   Assets/Lib/Crossblade GUI/Font/Barkentina 1.otf.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/1.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/1.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/2.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/2.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/3.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/3.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/4.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/4.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/5.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/5.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/6.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/6.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/7.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/7.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Previews/8.jpg
+#	new file:   Assets/Lib/Crossblade GUI/Previews/8.jpg.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/book_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/book_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/book_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/book_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/close_btn_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/close_btn_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/close_btn_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/close_btn_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/close_btn_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/close_btn_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/header_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Book/header_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 1.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 1/papper.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 1/papper.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2/border.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2/border.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2/border_full.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2/border_full.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2/papper.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Container 2/papper.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/active_tab_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/active_tab_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/close_btn_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/close_btn_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/close_btn_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/close_btn_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_bg_decoration.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_bg_decoration.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_bronze_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_bronze_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_gold_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_gold_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_green_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_green_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_overlay.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_overlay.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_purple_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_purple_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_silver_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/icon_silver_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/pagination_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/pagination_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/row_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/row_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/tabs_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/tabs_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/window_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/window_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/window_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD Window/window_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_bag_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_bag_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_bag_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_bag_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_bag_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_bag_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_settings_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_settings_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_settings_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_settings_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_settings_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/icon_settings_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/main_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/main_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/main_bar_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/main_bar_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_overlay-hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_overlay-hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_overlay-pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_overlay-pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_overlay.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/spell_icon_overlay.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/sub_icon_empty_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/sub_icon_empty_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/sub_icon_empty_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Action Bar/sub_icon_empty_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar/fill_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar/fill_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar/main_frame_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Cast - Loading Bar/main_frame_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/bronze_main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/bronze_main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/bronze_main_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/bronze_main_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/frame_overlay.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/frame_overlay.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/gold_main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/gold_main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/gold_main_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Charcater Frame 1/gold_main_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/handler.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/handler.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/handler_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/handler_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/main_frame_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Controller/main_frame_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/blue_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/blue_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/blue_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/blue_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/main_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/main_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/orange_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/orange_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/orange_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/orange_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/red_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/red_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/red_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/red_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/toxic_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/toxic_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/toxic_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Frame 2 - Potions/toxic_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/hand_icon.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/hand_icon.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/icon_overlay_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/icon_overlay_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/main_frame_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/main_frame_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/sword_icon.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Large Iconholder/sword_icon.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Message Container.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Message Container/message_container.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Message Container/message_container.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe/fill_blue.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe/fill_blue.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe/fill_red.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe/fill_red.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Simple Unitframe/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/frame_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/frame_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/icon_overlay.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/icon_overlay.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/icon_overlay_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/icon_overlay_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Spell Icon/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/blue_fill_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/blue_fill_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/character_avatar_overlay_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/character_avatar_overlay_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/green_fill_xp_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/green_fill_xp_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/main_frame.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/main_frame.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/main_frame_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/main_frame_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/red_fill_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/Unitframe/red_fill_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar/main_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar/main_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar/main_bar_glow_shadow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar/main_bar_glow_shadow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar/xp_fill_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/HUD/XP Bar/xp_fill_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/blue_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/blue_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/bubble.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/bubble.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/compass.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/compass.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/error.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/error.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/flag.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/flag.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/like.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/like.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/message.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/message.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/note.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/note.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/orange_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/orange_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/quest_1.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/quest_1.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/quest_2.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/quest_2.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/red_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/red_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/star.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/star.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/toxic_potion.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/toxic_potion.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/up.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Icons/up.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container/border.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container/border.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container/container_3.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container/container_3.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container/container_3_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/LOGIN Container/container_3_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar/loading_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar/loading_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar/loading_bar_shadow_glow.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar/loading_bar_shadow_glow.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar/loading_fill-orange.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/Loaing Bar/loading_fill-orange.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox/checkbox_checked.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox/checkbox_checked.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox/checkbox_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox/checkbox_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox/checkbox_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Checkbox/checkbox_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Corder Shaded Background.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Corder Shaded Background/shaded_corner_bg.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Corder Shaded Background/shaded_corner_bg.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/goldb_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/goldb_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/goldb_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/goldb_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/goldb_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/goldb_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/icon_circle_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/icon_circle_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/icon_circle_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/icon_circle_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/icon_circle_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Gold Button - Circle/icon_circle_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large/lgb_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large/lgb_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large/lgb_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large/lgb_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large/lgb_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Large/lgb_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/gb_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/gb_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/gb_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/gb_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/gb_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/gb_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/icon_plus_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/icon_plus_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/icon_plus_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/icon_plus_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/icon_plus_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green Button - Plus/icon_plus_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_red_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_red_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_red_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_red_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_red_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Green, Red Button - Normal/ngb_red_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Headline.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Headline/headline_bg.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Headline/headline_bg.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Leather Letter Inner Container.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Leather Letter Inner Container/leather_letter_container_bg.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Leather Letter Inner Container/leather_letter_container_bg.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar/handler_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar/handler_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar/handler_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar/handler_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar/main_bar.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Scroll Bar/main_bar.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/seperator_1.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/seperator_1.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/seperator_2.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/seperator_2.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/table_seperator_dark.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/table_seperator_dark.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/table_seperator_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Seperators/table_seperator_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_hand_hover.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_hand_hover.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_hand_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_hand_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_hand_pushed.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_hand_pushed.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_main.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Slider/slider_main.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars/empty_star.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars/empty_star.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars/gold_star.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars/gold_star.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars/white_star.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Table Stars/white_star.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/button_active_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/button_active_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/button_hover_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/button_hover_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/item_seperator.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/item_seperator.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/menu_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Tabs Menu/menu_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Background.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Background/background_1.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Background/background_1.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Background/pagination_background.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Background/pagination_background.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Input.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Input/input_focus.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Input/input_focus.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Input/input_normal.png
+#	new file:   Assets/Lib/Crossblade GUI/Sliced Elements/UI/Text Input/input_normal.png.meta
+#	new file:   Assets/Lib/Crossblade GUI/crossblade-gui.psd
+#	new file:   Assets/Lib/Crossblade GUI/crossblade-gui.psd.meta
+#	new file:   Assets/Lib/Crossblade GUI/readme.txt
+#	new file:   Assets/Lib/Crossblade GUI/readme.txt.meta
+#	new file:   Assets/Lib/NGUI.meta
+#	new file:   Assets/Lib/NGUI/Editor.meta
+#	new file:   Assets/Lib/NGUI/Editor/FreeType.dll
+#	new file:   Assets/Lib/NGUI/Editor/FreeType.dll.meta
+#	new file:   Assets/Lib/NGUI/Editor/FreeType.dylib
+#	new file:   Assets/Lib/NGUI/Editor/FreeType.dylib.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Background.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Background.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Button.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Button.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Checkbox.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Checkbox.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Horizontal Scroll Bar.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Horizontal Scroll Bar.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Popup List.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Popup List.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Progress Bar.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Progress Bar.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Slider.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Slider.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Vertical Scroll Bar.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Colored Vertical Scroll Bar.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Button.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Button.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Checkbox.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Checkbox.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Horizontal Scroll Bar.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Horizontal Scroll Bar.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Horizontal Slider.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Horizontal Slider.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Input Field.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Input Field.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Popup List.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Popup List.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Progress Bar.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Progress Bar.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Text Box.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Text Box.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Vertical Scroll Bar.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Vertical Scroll Bar.png.meta
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Vertical Slider.png
+#	new file:   Assets/Lib/NGUI/Editor/Preview/Control - Simple Vertical Slider.png.meta
+#	new file:   Assets/Lib/NGUI/Examples.meta
+#	new file:   Assets/Lib/NGUI/Examples/Animations.meta
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Button.anim
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Button.anim.meta
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Checkmark.anim
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Checkmark.anim.meta
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Logo.anim
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Logo.anim.meta
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Window - Back.anim
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Window - Back.anim.meta
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Window - Forward.anim
+#	new file:   Assets/Lib/NGUI/Examples/Animations/Window - Forward.anim.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.mat
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.psd
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas - Bump.psd
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas - Bump.psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas - Masks.psd
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas - Masks.psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas.mat
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas.psd
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Atlas.psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Header.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Header.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Header.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Header.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Atlas.mat
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Atlas.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Atlas.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Atlas.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Atlas.psd
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Atlas.psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Header.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Header.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Header.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Header.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo14.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo14.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo14.tga
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo14.tga.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo14.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo14.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo18.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo18.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo18.tga
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo18.tga.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo18.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo18.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo20.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo20.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo20.tga
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo20.tga.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo20.txt
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Arimo20.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Coalition.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Coalition.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Background.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Background.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Button.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Button.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Checkbox.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Checkbox.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Horizontal Scroll Bar.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Horizontal Scroll Bar.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Popup List.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Popup List.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Progress Bar.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Progress Bar.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Slider.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Slider.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Vertical Scroll Bar.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Colored Vertical Scroll Bar.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Button.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Button.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Checkbox.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Checkbox.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Scroll Bar.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Scroll Bar.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Slider.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Slider.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Input Field.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Input Field.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Popup List.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Popup List.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Progress Bar.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Progress Bar.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Text Box.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Text Box.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Scroll Bar.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Scroll Bar.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Slider.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Slider.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Wooden Atlas.mat
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Wooden Atlas.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Wooden Atlas.png
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Wooden Atlas.png.meta
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Wooden Atlas.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Atlases/Wooden/Wooden Atlas.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Materials.meta
+#	new file:   Assets/Lib/NGUI/Examples/Materials/Backdrop.mat
+#	new file:   Assets/Lib/NGUI/Examples/Materials/Backdrop.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Materials/brick.mat
+#	new file:   Assets/Lib/NGUI/Examples/Materials/brick.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Materials/burlap.mat
+#	new file:   Assets/Lib/NGUI/Examples/Materials/burlap.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Materials/sand.mat
+#	new file:   Assets/Lib/NGUI/Examples/Materials/sand.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Bracers.FBX
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Bracers.FBX.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor (Diffuse).psd
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor (Diffuse).psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor (Maps).png
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor (Maps).png.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor (Normal).png
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor (Normal).png.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor.mat
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor.shader
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Armor.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Bracers.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Bracers.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Shoulders.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Orc Shoulders.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Shoulders.FBX
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc Armor/Shoulders.FBX.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/FBX.FBX
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/FBX.FBX.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/FBX@idle.FBX
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/FBX@idle.FBX.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/FBX@idleBreaks.FBX
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/FBX@idleBreaks.FBX.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin (Diffuse).psd
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin (Diffuse).psd.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin (Normal).png
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin (Normal).png.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin.mat
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin.mat.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin.shader
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc Skin.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Models/Orc/Orc.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Other.meta
+#	new file:   Assets/Lib/NGUI/Examples/Other/Storage Icon Template.prefab
+#	new file:   Assets/Lib/NGUI/Examples/Other/Storage Icon Template.prefab.meta
+#	new file:   Assets/Lib/NGUI/Examples/Resources.meta
+#	new file:   Assets/Lib/NGUI/Examples/Resources/Localization.txt
+#	new file:   Assets/Lib/NGUI/Examples/Resources/Localization.txt.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 0 - Control Widgets.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 0 - Control Widgets.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 1 - Anchors.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 1 - Anchors.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 10 - Localization.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 10 - Localization.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 11 - Drag & Drop.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 11 - Drag & Drop.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 12 - Chat Window.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 12 - Chat Window.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 13 - Tabs.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 13 - Tabs.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 14 - Endless Scroll Views.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 14 - Endless Scroll Views.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 2 - Interaction.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 2 - Interaction.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 3 - Menu.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 3 - Menu.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 4 - Controller Input.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 4 - Controller Input.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 5 - Lights and Refraction.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 5 - Lights and Refraction.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 6 - Draggable Window.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 6 - Draggable Window.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 7 - Scroll View (Panel).unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 7 - Scroll View (Panel).unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 8 - Scroll View (Camera).unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 8 - Scroll View (Camera).unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 9 - Quest Log.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example 9 - Quest Log.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example X - Character.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Example X - Character.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 1.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 1.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 2.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 2.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 3.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 3.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 4.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 4.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 5.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 5.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 6.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 6.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 7.unity
+#	new file:   Assets/Lib/NGUI/Examples/Scenes/Tutorial 7.unity.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Editor.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ChatInput.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ChatInput.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/DownloadTexture.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/DownloadTexture.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/EnvelopContent.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/EnvelopContent.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LagPosition.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LagPosition.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LagRotation.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LagRotation.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LookAtTarget.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/LookAtTarget.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/OpenURLOnClick.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/OpenURLOnClick.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/PanWithMouse.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/PanWithMouse.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/SetColorOnSelection.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/SetColorOnSelection.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ShaderQuality.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/ShaderQuality.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/Spin.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/Spin.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/SpinWithMouse.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/SpinWithMouse.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/Tutorial5.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/Tutorial5.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/UISliderColors.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/UISliderColors.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/WindowAutoYaw.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/WindowAutoYaw.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/WindowDragTilt.cs
+#	new file:   Assets/Lib/NGUI/Examples/Scripts/Other/WindowDragTilt.cs.meta
+#	new file:   Assets/Lib/NGUI/Examples/Shaders.meta
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Refractive.shader
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Refractive.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Additive Colored.shader
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Additive Colored.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Depth Cutout.shader
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Depth Cutout.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Depth.shader
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Depth.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Masked Colored.shader
+#	new file:   Assets/Lib/NGUI/Examples/Shaders/Unlit - Masked Colored.shader.meta
+#	new file:   Assets/Lib/NGUI/Examples/Sounds.meta
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Crumple.wav
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Crumple.wav.meta
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Rumble.wav
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Rumble.wav.meta
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Swipe.wav
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Swipe.wav.meta
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Tap.wav
+#	new file:   Assets/Lib/NGUI/Examples/Sounds/Tap.wav.meta
+#	new file:   Assets/Lib/NGUI/Examples/Textures.meta
+#	new file:   Assets/Lib/NGUI/Examples/Textures/Backdrop.png
+#	new file:   Assets/Lib/NGUI/Examples/Textures/Backdrop.png.meta
+#	new file:   Assets/Lib/NGUI/Examples/Textures/brick.jpg
+#	new file:   Assets/Lib/NGUI/Examples/Textures/brick.jpg.meta
+#	new file:   Assets/Lib/NGUI/Examples/Textures/brickNM.png
+#	new file:   Assets/Lib/NGUI/Examples/Textures/brickNM.png.meta
+#	new file:   Assets/Lib/NGUI/Examples/Textures/burlap.jpg
+#	new file:   Assets/Lib/NGUI/Examples/Textures/burlap.jpg.meta
+#	new file:   Assets/Lib/NGUI/Examples/Textures/sand.png
+#	new file:   Assets/Lib/NGUI/Examples/Textures/sand.png.meta
+#	new file:   Assets/Lib/NGUI/ReadMe - 3.6.5.txt
+#	new file:   Assets/Lib/NGUI/ReadMe - 3.6.5.txt.meta
+#	new file:   Assets/Lib/NGUI/Resources.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 1.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 1.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 2.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 2.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 3.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 3.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Premultiplied Colored.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text 1.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text 1.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text 2.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text 2.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text 3.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text 3.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Text.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored 1.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored 1.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored 2.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored 2.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored 3.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored 3.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Colored.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed 1.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed 1.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed 2.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed 2.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed 3.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed 3.shader.meta
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed.shader
+#	new file:   Assets/Lib/NGUI/Resources/Shaders/Unlit - Transparent Packed.shader.meta
+#	new file:   Assets/Lib/NGUI/Scripts.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/ActiveAnimationEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/ActiveAnimationEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/BMFontReader.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/BMFontReader.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/ComponentSelector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/ComponentSelector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/EventDelegateDrawer.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/EventDelegateDrawer.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/EventDelegateEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/EventDelegateEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/FreeType.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/FreeType.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIContextMenu.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIContextMenu.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIEditorExtensions.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIEditorExtensions.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIEditorTools.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIEditorTools.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIHandles.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIHandles.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIHelp.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIHelp.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIJson.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIJson.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIMenu.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUIMenu.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUISelectionTools.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUISelectionTools.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUISettings.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUISettings.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUISnap.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUISnap.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUITransformInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/NGUITransformInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/PropertyBindingEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/PropertyBindingEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/PropertyReferenceDrawer.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/PropertyReferenceDrawer.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/SpriteSelector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/SpriteSelector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenAlphaEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenAlphaEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenColorEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenColorEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenFOVEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenFOVEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenHeightEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenHeightEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenOrthoSizeEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenOrthoSizeEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenPositionEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenPositionEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenRotationEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenRotationEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenScaleEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenScaleEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenTransformEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenTransformEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenVolumeEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenVolumeEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenWidthEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/TweenWidthEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UI2DSpriteEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UI2DSpriteEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIAnchorEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIAnchorEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIAtlasInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIAtlasInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIAtlasMaker.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIAtlasMaker.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIBasicSpriteEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIBasicSpriteEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonColorEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonColorEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonKeysEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonKeysEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonMessageEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIButtonMessageEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICameraEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICameraEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICameraTool.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICameraTool.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICreateNewUIWizard.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICreateNewUIWizard.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICreateWidgetWizard.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UICreateWidgetWizard.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIDragObjectEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIDragObjectEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIDrawCallInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIDrawCallInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIDrawCallViewer.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIDrawCallViewer.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIEventTriggerEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIEventTriggerEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIFontInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIFontInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIFontMaker.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIFontMaker.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIForwardEventsEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIForwardEventsEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIGridEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIGridEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIImageButtonInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIImageButtonInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIInputEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIInputEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIKeyNavigationEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIKeyNavigationEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UILabelInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UILabelInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UILocalizeEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UILocalizeEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPanelInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPanelInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPanelTool.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPanelTool.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPlayAnimationEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPlayAnimationEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPlayTweenEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPlayTweenEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPopupListInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPopupListInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPrefabTool.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIPrefabTool.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIProgressBarEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIProgressBarEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIRectEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIRectEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIRootEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIRootEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIScrollBarEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIScrollBarEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIScrollViewEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIScrollViewEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISliderEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISliderEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISnapshotPointEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISnapshotPointEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISpriteInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UISpriteInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIStretchEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIStretchEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITableEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITableEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITextureInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITextureInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITexturePacker.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITexturePacker.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIToggleInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIToggleInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITweenerEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UITweenerEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIWidgetContainerEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIWidgetContainerEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIWidgetInspector.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIWidgetInspector.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIWrapContentEditor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Editor/UIWrapContentEditor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/LanguageSelection.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/LanguageSelection.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/TypewriterEffect.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/TypewriterEffect.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButton.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButton.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonActivate.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonActivate.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonColor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonColor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonKeys.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonKeys.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonMessage.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonMessage.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonOffset.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonOffset.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonRotation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonRotation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonScale.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIButtonScale.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UICenterOnChild.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UICenterOnChild.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UICenterOnClick.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UICenterOnClick.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragCamera.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragCamera.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragDropContainer.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragDropContainer.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragDropItem.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragDropItem.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragDropRoot.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragDropRoot.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragObject.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragObject.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragResize.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragResize.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragScrollView.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDragScrollView.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDraggableCamera.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIDraggableCamera.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIEventTrigger.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIEventTrigger.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIForwardEvents.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIForwardEvents.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIGrid.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIGrid.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIImageButton.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIImageButton.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIKeyBinding.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIKeyBinding.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIKeyNavigation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIKeyNavigation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPlayAnimation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPlayAnimation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPlaySound.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPlaySound.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPlayTween.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPlayTween.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPopupList.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIPopupList.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIProgressBar.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIProgressBar.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UISavedOption.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UISavedOption.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIScrollBar.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIScrollBar.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIScrollView.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIScrollView.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UISlider.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UISlider.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UISoundVolume.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UISoundVolume.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UITable.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UITable.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIToggle.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIToggle.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIToggledComponents.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIToggledComponents.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIToggledObjects.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIToggledObjects.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIWidgetContainer.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIWidgetContainer.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIWrapContent.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Interaction/UIWrapContent.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/ActiveAnimation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/ActiveAnimation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/AnimationOrTween.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/AnimationOrTween.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BMFont.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BMFont.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BMGlyph.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BMGlyph.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BMSymbol.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BMSymbol.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BetterList.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/BetterList.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/ByteReader.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/ByteReader.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/EventDelegate.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/EventDelegate.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/Localization.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/Localization.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUIDebug.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUIDebug.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUIMath.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUIMath.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUIText.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUIText.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUITools.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/NGUITools.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/PropertyBinding.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/PropertyBinding.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/PropertyReference.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/PropertyReference.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/RealTime.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/RealTime.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/SpringPanel.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/SpringPanel.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIBasicSprite.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIBasicSprite.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIDrawCall.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIDrawCall.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIEventListener.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIEventListener.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIGeometry.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIGeometry.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIRect.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIRect.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UISnapshotPoint.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UISnapshotPoint.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIWidget.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Internal/UIWidget.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/AnimatedAlpha.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/AnimatedAlpha.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/AnimatedColor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/AnimatedColor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/SpringPosition.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/SpringPosition.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenAlpha.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenAlpha.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenColor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenColor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenFOV.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenFOV.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenHeight.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenHeight.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenOrthoSize.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenOrthoSize.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenPosition.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenPosition.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenRotation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenRotation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenScale.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenScale.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenTransform.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenTransform.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenVolume.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenVolume.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenWidth.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/TweenWidth.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/UITweener.cs
+#	new file:   Assets/Lib/NGUI/Scripts/Tweening/UITweener.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UI2DSprite.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UI2DSprite.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UI2DSpriteAnimation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UI2DSpriteAnimation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIAnchor.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIAnchor.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIAtlas.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIAtlas.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UICamera.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UICamera.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIFont.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIFont.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIInput.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIInput.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UILabel.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UILabel.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UILocalize.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UILocalize.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIOrthoCamera.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIOrthoCamera.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIPanel.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIPanel.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIRoot.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIRoot.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UISprite.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UISprite.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UISpriteAnimation.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UISpriteAnimation.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UISpriteData.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UISpriteData.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIStretch.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIStretch.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UITextList.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UITextList.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UITexture.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UITexture.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UITooltip.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UITooltip.cs.meta
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIViewport.cs
+#	new file:   Assets/Lib/NGUI/Scripts/UI/UIViewport.cs.meta
+#	new file:   Assets/Lib/core.meta
+#	new file:   Assets/Lib/core/CSLightEvil.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/CLS_Environment.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/CLS_Environment.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_00Util.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_00Util.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_01Block.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_01Block.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_02Value.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_02Value.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_03DefineSet.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_03DefineSet.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_04Math.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_04Math.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_05Function.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_05Function.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_06Loop.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_06Loop.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_07OO.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Compitler/CLS_Compiler_07OO.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Delegate.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Delegate/Delegate.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Delegate/Delegate.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_Block.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_Block.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_Define.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_Define.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_GetValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_GetValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_SetValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/CLS_Expression_SetValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_Function.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_Function.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_FunctionNew.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_FunctionNew.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_FunctionNewArray.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_FunctionNewArray.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_IndexFind.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_IndexFind.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_IndexSetValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_IndexSetValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_Lambda.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_Lambda.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberFind.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberFind.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberFunction.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberFunction.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberMath.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberMath.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberSetValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_MemberSetValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticFind.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticFind.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticFunction.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticFunction.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticMath.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticMath.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticSetValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_StaticSetValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_Throw.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Function/CLS_Expression_Throw.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopBreak.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopBreak.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopContinue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopContinue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopDowhile.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopDowhile.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopFor.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopFor.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopForEach.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopForEach.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopIf.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopIf.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopReturn.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopReturn.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopTry.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopTry.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopWhile.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Loop/CLS_Expression_LoopWhile.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math2Value.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math2Value.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math2ValueAndOR.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math2ValueAndOR.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math2ValueLogic.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math2ValueLogic.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math3Value.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_Math3Value.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_NegativeLogic.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_NegativeLogic.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_NegativeValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_NegativeValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_SelfOp.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_SelfOp.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_SelfOpWithValue.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_SelfOpWithValue.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_TypeCheck.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_TypeCheck.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_TypeConvert.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Expression/Math/CLS_Expression_TypeConvert.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Log.txt
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Log.txt.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/FunctionTrace.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/FunctionTrace.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction1Param.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction1Param.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction2Param.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction2Param.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction3Param.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleAction3Param.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction1Param.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction1Param.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction2Param.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction2Param.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction3Param.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_DeleNonVoidAction3Param.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_Function.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_Function.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_Type.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/RegHelper/RegHelper_Type.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Token.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Token/CLS_Token.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Token/CLS_Token.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Bool.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Bool.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Class.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Class.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Delegate.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Delegate.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Double.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Double.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Float.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Float.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Lambda.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Lambda.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Null.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Null.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_String.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_String.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Var.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/CLS_Type_Var.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Byte.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Byte.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Char.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Char.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Int.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Int.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Long.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Long.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Sbyte.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Sbyte.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Short.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Short.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_UInt.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_UInt.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_ULong.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_ULong.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Ushort.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/ints/CLS_Type_Ushort.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/utils.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/utils/NumericTypeUtils.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Type/utils/NumericTypeUtils.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Value.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Value/CLS_Value_Value.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/Value/CLS_Value_Value.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Content.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Content.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Expression.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Expression.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Function.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Function.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Loger.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Loger.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Type.cs
+#	new file:   Assets/Lib/core/CSLightEvil/C#LE/_Interface/CLS_Type.cs.meta
+#	new file:   Assets/Lib/core/CSLightEvil/CSLightEvil.csproj
+#	new file:   Assets/Lib/core/CSLightEvil/CSLightEvil.csproj.meta
+#	new file:   Assets/Lib/core/CSLightEvil/CSLightEvil35.csproj
+#	new file:   Assets/Lib/core/CSLightEvil/CSLightEvil35.csproj.meta
+#	new file:   Assets/Lib/core/CSLightEvil/Properties.meta
+#	new file:   Assets/Lib/core/CSLightEvil/Properties/AssemblyInfo.cs
+#	new file:   Assets/Lib/core/CSLightEvil/Properties/AssemblyInfo.cs.meta
+#	new file:   Assets/Lib/core/myjson.meta
+#	new file:   Assets/Lib/core/myjson/MyJson.cs
+#	new file:   Assets/Lib/core/myjson/MyJson.cs.meta
+#	new file:   Assets/LocalAsset.meta
+#	new file:   Assets/LocalAsset/Script.meta
+#	new file:   Assets/LocalAsset/Script/UILoginLogic.cs
+#	new file:   Assets/LocalAsset/Script/UILoginLogic.cs.meta
+#	new file:   Assets/LocalAsset/UI.meta
+#	new file:   Assets/LocalAsset/UI/Login.assetbundle
+#	new file:   Assets/LocalAsset/UI/Login.assetbundle.meta
+#	new file:   Assets/LocalAsset/prefab001.assetbundle
+#	new file:   Assets/LocalAsset/prefab001.assetbundle.meta
+#	new file:   Assets/LocalAsset/prefab002.assetbundle
+#	new file:   Assets/LocalAsset/prefab002.assetbundle.meta
+#	new file:   Assets/Resources.meta
+#	new file:   Assets/Resources/Animation.meta
+#	new file:   Assets/Resources/Animation/LoginAnimation.anim
+#	new file:   Assets/Resources/Animation/LoginAnimation.anim.meta
+#	new file:   Assets/Resources/Font.meta
+#	new file:   Assets/Resources/Font/Font.prefab
+#	new file:   Assets/Resources/Font/Font.prefab.meta
+#	new file:   Assets/Resources/Font/consola.ttf
+#	new file:   Assets/Resources/Font/consola.ttf.meta
+#	new file:   Assets/Resources/Font/consolab.ttf
+#	new file:   Assets/Resources/Font/consolab.ttf.meta
+#	new file:   Assets/Resources/GameGlobalData.prefab
+#	new file:   Assets/Resources/GameGlobalData.prefab.meta
+#	new file:   Assets/Resources/UIAtlas.meta
+#	new file:   Assets/Resources/UIAtlas/Login.meta
+#	new file:   Assets/Resources/UIAtlas/Login/Login_Atlas.mat
+#	new file:   Assets/Resources/UIAtlas/Login/Login_Atlas.mat.meta
+#	new file:   Assets/Resources/UIAtlas/Login/Login_Atlas.png
+#	new file:   Assets/Resources/UIAtlas/Login/Login_Atlas.png.meta
+#	new file:   Assets/Resources/UIAtlas/Login/Login_Atlas.prefab
+#	new file:   Assets/Resources/UIAtlas/Login/Login_Atlas.prefab.meta
+#	new file:   Assets/Resources/UIAtlas/Login/crossblade-gui.jpg
+#	new file:   Assets/Resources/UIAtlas/Login/crossblade-gui.jpg.meta
+#	new file:   Assets/Resources/UIPrefab.meta
+#	new file:   Assets/Resources/UIPrefab/Login.prefab
+#	new file:   Assets/Resources/UIPrefab/Login.prefab.meta
+#	new file:   Assets/Resources/UIPrefab/UI.prefab
+#	new file:   Assets/Resources/UIPrefab/UI.prefab.meta
+#	new file:   Assets/Resources/UIPrefab/UIProgress.prefab
+#	new file:   Assets/Resources/UIPrefab/UIProgress.prefab.meta
+#	new file:   Assets/Resources/UIPrefab/UIRoot.prefab
+#	new file:   Assets/Resources/UIPrefab/UIRoot.prefab.meta
+#	new file:   Assets/Scene.meta
+#	new file:   Assets/Scene/Game.unity
+#	new file:   Assets/Scene/Game.unity.meta
+#	new file:   Assets/Script.meta
+#	new file:   Assets/Script/AssetHelp.meta
+#	new file:   Assets/Script/AssetHelp/Editor.meta
+#	new file:   Assets/Script/AssetHelp/Editor/MLTool.cs
+#	new file:   Assets/Script/AssetHelp/Editor/MLTool.cs.meta
+#	new file:   Assets/Script/AssetHelp/GameConfigManager.cs
+#	new file:   Assets/Script/AssetHelp/GameConfigManager.cs.meta
+#	new file:   Assets/Script/AssetHelp/GameConfigResourcesAccess.cs
+#	new file:   Assets/Script/AssetHelp/GameConfigResourcesAccess.cs.meta
+#	new file:   Assets/Script/AssetHelp/GameConfigState.cs
+#	new file:   Assets/Script/AssetHelp/GameConfigState.cs.meta
+#	new file:   Assets/Script/AssetHelp/GameConfigVerification.cs
+#	new file:   Assets/Script/AssetHelp/GameConfigVerification.cs.meta
+#	new file:   Assets/Script/AssetHelp/MLFileHelp.cs
+#	new file:   Assets/Script/AssetHelp/MLFileHelp.cs.meta
+#	new file:   Assets/Script/AssetHelp/MLWWWHelp.cs
+#	new file:   Assets/Script/AssetHelp/MLWWWHelp.cs.meta
+#	new file:   Assets/Script/Game.meta
+#	new file:   Assets/Script/Game/Asset.meta
+#	new file:   Assets/Script/Game/Asset/AssetConfigFile.cs
+#	new file:   Assets/Script/Game/Asset/AssetConfigFile.cs.meta
+#	new file:   Assets/Script/Game/Asset/AssetConfigFolder.cs
+#	new file:   Assets/Script/Game/Asset/AssetConfigFolder.cs.meta
+#	new file:   Assets/Script/Game/Asset/AssetLoad.cs
+#	new file:   Assets/Script/Game/Asset/AssetLoad.cs.meta
+#	new file:   Assets/Script/Game/DelayClear.cs
+#	new file:   Assets/Script/Game/DelayClear.cs.meta
+#	new file:   Assets/Script/Game/FSM.meta
+#	new file:   Assets/Script/Game/FSM/Base.meta
+#	new file:   Assets/Script/Game/FSM/Base/FsmGameState.cs
+#	new file:   Assets/Script/Game/FSM/Base/FsmGameState.cs.meta
+#	new file:   Assets/Script/Game/FSM/Base/IFSM.cs
+#	new file:   Assets/Script/Game/FSM/Base/IFSM.cs.meta
+#	new file:   Assets/Script/Game/FSM/FsmGameManager.cs
+#	new file:   Assets/Script/Game/FSM/FsmGameManager.cs.meta
+#	new file:   Assets/Script/Game/FSM/Moudle.meta
+#	new file:   Assets/Script/Game/FSM/Moudle/FsmGameConfigState.cs
+#	new file:   Assets/Script/Game/FSM/Moudle/FsmGameConfigState.cs.meta
+#	new file:   Assets/Script/Game/FSM/Moudle/FsmGameInitState.cs
+#	new file:   Assets/Script/Game/FSM/Moudle/FsmGameInitState.cs.meta
+#	new file:   Assets/Script/Game/GameGlobalAssetPath.cs
+#	new file:   Assets/Script/Game/GameGlobalAssetPath.cs.meta
+#	new file:   Assets/Script/Game/GameGlobalCommunity.cs
+#	new file:   Assets/Script/Game/GameGlobalCommunity.cs.meta
+#	new file:   Assets/Script/Game/GameGlobalScript.cs
+#	new file:   Assets/Script/Game/GameGlobalScript.cs.meta
+#	new file:   Assets/Script/Game/GameStart.cs
+#	new file:   Assets/Script/Game/GameStart.cs.meta
+#	new file:   Assets/Script/UI.meta
+#	new file:   Assets/Script/UI/Login.meta
+#	new file:   Assets/Script/UI/Login/UILogin.cs
+#	new file:   Assets/Script/UI/Login/UILogin.cs.meta
+#	new file:   Assets/Script/UI/Module.meta
+#	new file:   Assets/Script/UI/Module/Base.meta
+#	new file:   Assets/Script/UI/Module/Base/ITween.cs
+#	new file:   Assets/Script/UI/Module/Base/ITween.cs.meta
+#	new file:   Assets/Script/UI/Module/Base/IUIShow.cs
+#	new file:   Assets/Script/UI/Module/Base/IUIShow.cs.meta
+#	new file:   Assets/Script/UI/Module/Base/UIBaseManager.cs
+#	new file:   Assets/Script/UI/Module/Base/UIBaseManager.cs.meta
+#	new file:   Assets/Script/UI/Module/Base/UIDialogBase.cs
+#	new file:   Assets/Script/UI/Module/Base/UIDialogBase.cs.meta
+#	new file:   Assets/Script/UI/Module/Base/UIWidgetBase.cs
+#	new file:   Assets/Script/UI/Module/Base/UIWidgetBase.cs.meta
+#	new file:   Assets/Script/UI/Module/Editor.meta
+#	new file:   Assets/Script/UI/Module/Editor/CXLUIEditor.cs
+#	new file:   Assets/Script/UI/Module/Editor/CXLUIEditor.cs.meta
+#	new file:   Assets/Script/UI/Module/UIDialogManager.cs
+#	new file:   Assets/Script/UI/Module/UIDialogManager.cs.meta
+#	new file:   Assets/Script/UI/Module/UIManager.cs
+#	new file:   Assets/Script/UI/Module/UIManager.cs.meta
+#	new file:   Assets/Script/UI/Module/UITool.cs
+#	new file:   Assets/Script/UI/Module/UITool.cs.meta
+#	new file:   Assets/Script/UI/Module/UITweenManager.cs
+#	new file:   Assets/Script/UI/Module/UITweenManager.cs.meta
+#	new file:   Assets/Script/UI/Module/UIWidgetManager.cs
+#	new file:   Assets/Script/UI/Module/UIWidgetManager.cs.meta
+#	new file:   Assets/Script/UI/UIProgress.cs
+#	new file:   Assets/Script/UI/UIProgress.cs.meta
+#	new file:   Assets/Script/USERDebug.cs
+#	new file:   Assets/Script/USERDebug.cs.meta
+#	new file:   Assets/UnityVS.meta
+#	new file:   Assets/UnityVS/Editor.meta
+#	new file:   Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
+#	new file:   Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll.meta
+#	new file:   Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll
+#	new file:   Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll.meta
+#	new file:   Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll
+#	new file:   Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll.meta
+#	new file:   Assets/config.xml
+#	new file:   Assets/config.xml.meta
+#
+
