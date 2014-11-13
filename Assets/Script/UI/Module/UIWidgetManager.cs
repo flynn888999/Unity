@@ -57,7 +57,7 @@ namespace CXLUI
             }
         }
 
-        public override GameObject Show(string uiName, AssetResourecesInfo beforPath)
+        public override GameObject Show(string uiName/*, AssetResourecesInfo beforPath*/)
 		{
 			MarkHurry();
 
@@ -86,7 +86,7 @@ namespace CXLUI
 			else
 			{
 				//	load and hide current!
-				child = UITool.Load( uiName, beforPath, mObject);
+				child = UITool.Load( uiName/*, beforPath*/, mObject);
 
 				//	sort panel depth
 				UITool.SetStructOrderDepth( child, 20);

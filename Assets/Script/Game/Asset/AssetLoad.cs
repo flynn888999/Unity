@@ -5,10 +5,33 @@ using System.Collections.Generic;
 using AssetResources = AssetConfigFolder;
 
 
-public struct AssetCacheInfo
+public class AssetCacheInfo
 {
-    public byte[] binary; 
+    public byte[] binary;
+
+    private AssetBundle bundle;
+    public UnityEngine.AssetBundle Bundle
+    {
+        get { return bundle; }
+        set 
+        { 
+            if (bundle == null)
+                bundle = value; 
+        }
+    }
+
 }
+
+/**
+ * 
+ *      资源加载管理
+ *      
+ *      2014-11-13 15:44:06
+ *      1.  由于WWW下载为异步下载,所以建立缓存表,
+ *          所有模块初始化时应当把自己模块所有需要的资源加载到缓存表里.
+ *      2.  保证所有资源入口都是AssetLoad接口    
+ * 
+ * **/
 
 public class AssetLoad 
 {
@@ -17,7 +40,6 @@ public class AssetLoad
 
     //  C:\Users\fc-home\Desktop\work\SelfFramwork\Assets\LocalAsset
     private static string _localAssetPath = null;
-    //private static string _localWriteFolderPath = null;
 
     private Dictionary<string, int> resourcesMap = new Dictionary<string,int>();
 
@@ -29,34 +51,11 @@ public class AssetLoad
     private string asyncName;
     private Dictionary<string, AssetCacheInfo> cacheInfo = new Dictionary<string, AssetCacheInfo>();
 
+    //  加载完成
+    public EventDelegate.Callback OnLoadAsyncFinish;
+    private bool isLoadArray = false;
 
     #region Attribute
-
-    //public static string LocalWriteFolderPath
-    //{
-    //    get {
-
-    //        if (_localWriteFolderPath == null)
-    //        {
-    //            switch (Application.platform)
-    //            {
-    //                case RuntimePlatform.Android:
-    //                    _localWriteFolderPath = Application.persistentDataPath + "/LocalAsset";
-    //                    break;
-    //                case RuntimePlatform.IPhonePlayer:
-    //                    _localWriteFolderPath = Application.persistentDataPath + "/LocalAsset";
-    //                    break;
-    //                case RuntimePlatform.WindowsEditor:
-    //                //C:/Users/fc-home/Desktop/work/_Test/Assets
-    //                case RuntimePlatform.OSXEditor:
-    //                    _localWriteFolderPath = Application.dataPath + "/LocalAsset";
-    //                    break;
-    //            }
-    //        }
-    //        return _localWriteFolderPath; 
-        
-    //    }
-    //}
 
     public static string LocalAssetPath
     {
@@ -73,16 +72,10 @@ public class AssetLoad
                         _localAssetPath = Application.persistentDataPath + "/LocalAsset";
                         break;
                     case RuntimePlatform.WindowsEditor:
-                    //C:/Users/fc-home/Desktop/work/_Test/Assets
                     case RuntimePlatform.OSXEditor:
                         _localAssetPath = Application.dataPath + "/LocalAsset";
                         break;
                 }
-
-//#if UNITY_EDITOR_WIN || UNITY_EDITOR_OS
-//                _localAssetPath = "file:///" + _localAssetPath;
-//                USERDebug.Log("本地路径: " + _localAssetPath);
-//#endif
             }
             return _localAssetPath;
         }
@@ -121,12 +114,60 @@ public class AssetLoad
 
     #endregion
 
+
+
+    /// <summary>
+    /// 加载一组资源到缓存列表
+    /// </summary>
+    /// <param name="resNames"></param>
     public static void LoadAsyncCache(string[] resNames)
     {
-        GameGlobalCommunity.Instance.StartCoroutine(Instance.LoadAsyncCaches(resNames));
+        Instance.isLoadArray = true;
+        GameGlobalCommunity.Instance.StartCoroutine(Instance.LoadLocalArray(resNames));
     }
 
+
+
+    /// <summary>
+    /// 加载一个AssetBundle到缓存
+    /// </summary>
+    /// <param name="resName"></param>
     public static void LoadAsyncCache(string resName)
+    {
+        Instance.isLoadArray = false;
+        Instance.LoadLocal(resName);
+    }
+
+
+
+    /// <summary>
+    /// 加载本地资源队列
+    /// </summary>
+    /// <param name="resNames"></param>
+    /// <returns></returns>
+    private IEnumerator LoadLocalArray(string[] resNames)
+    {
+        foreach (string item in resNames)
+        {
+            LoadLocal(item);
+            while (!MLWWWHelp.Instance.IsFinish)
+            {
+                yield return null;
+            }
+        }
+
+        //  all load over call
+        if (OnLoadAsyncFinish != null)
+            OnLoadAsyncFinish();
+    }
+
+
+
+    /// <summary>
+    /// 单个本地资源加载
+    /// </summary>
+    /// <param name="resName"></param>
+    private void LoadLocal(string resName)
     {
         if (IsCache(resName))
         {
@@ -137,32 +178,32 @@ public class AssetLoad
         MLWWWHelp.Instance.OnFinish = Instance.OnLoadFinish;
 
         string URL = _instance.GetLocalDownUrl(resName);
+        //  PC上需要加上flie:///
 #if UNITY_EDITOR_WIN || UNITY_EDITOR_OS
         URL = "file:///" + URL;
 #endif
+
         MLWWWHelp.Instance.DownLoadAssetBundle(URL);
     }
 
-    private IEnumerator LoadAsyncCaches(string[] resNames)
-    {
-        foreach (string item in resNames)
-        {
-            LoadAsyncCache(item);
-            while (!MLWWWHelp.Instance.IsFinish)
-            {
-                yield return null;
-            }
-        }
-    }
 
+
+    /// <summary>
+    /// www 帮助类回调
+    /// </summary>
+    /// <param name="isFinish"></param>
     private void OnLoadFinish( bool isFinish)
     {
         if (isFinish)
         {
-            AssetCacheInfo info;
+            AssetCacheInfo info = new AssetCacheInfo();
             info.binary = MLWWWHelp.Instance.Binary;
             cacheInfo.Add(asyncName, info);
             asyncName = null;
+
+            //  单个回调立马派发
+            if (!isLoadArray)
+                OnLoadAsyncFinish();
         }
         else
         {
@@ -171,20 +212,58 @@ public class AssetLoad
     }
 
 
+
+
+    /// <summary>
+    /// 资源是否存在缓存表
+    /// </summary>
+    /// <param name="resName"></param>
+    /// <returns></returns>
     public static bool IsCache(string resName)
     {
         return Instance.cacheInfo.ContainsKey(resName);
     }
 
+
+
+    /// <summary>
+    /// 同步加载一个AssetBundle
+    /// 必须是存在缓存表里面
+    /// </summary>
+    /// <param name="resName"></param>
+    /// <returns></returns>
     public static AssetBundle Load(string resName)
     {
-        AssetBundle ab = null;
         if (Instance.cacheInfo.ContainsKey(resName))
         {
-            ab = AssetBundle.CreateFromMemoryImmediate(Instance.cacheInfo[resName].binary);
+            if (Instance.cacheInfo[resName].Bundle == null)
+            {
+                Instance.cacheInfo[resName].Bundle = AssetBundle.CreateFromMemoryImmediate(Instance.cacheInfo[resName].binary);
+                return Instance.cacheInfo[resName].Bundle;
+            }
+            else
+                return Instance.cacheInfo[resName].Bundle;
+        }
+        return null;
+    }
+
+
+    /// <summary>
+    /// 加载单个原子数据
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="info"></param>
+    /// <returns></returns>
+    public static T Load<T>(AssetResourecesInfo info) where T : Object
+    {
+        AssetBundle bundle = Load(info.assetName);
+        if (bundle != null)
+        {
+            return (bundle.Load(info.resName) as T);
         }
 
-        return ab;
+        USERDebug.LogError(string.Format("Asset: {0}, ResourcesName: {1} 没有加载成功! {2}", info.assetName, info.resName, USERDebug.PrintCurrentMethod()));
+        return null;
     }
 
     public string GetHttpDownUrl(string resName)

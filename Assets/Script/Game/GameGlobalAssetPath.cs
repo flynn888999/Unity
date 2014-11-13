@@ -41,6 +41,14 @@ public struct AssetPath
         }
     }
 
+    public static Dictionary<string, AssetResourecesInfo> AssetUIPath
+    {
+        get
+        {
+            return assetUiPath;
+        }
+    }
+
     public static Dictionary<string, string> ScriptPath
     {
         get

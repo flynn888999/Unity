@@ -43,7 +43,7 @@ namespace CXLUI
         }
 
         /// <summary>
-        ///     所有加载预设入口
+        /// 所有UI加载预设入口
         /// </summary>
         /// <param name="uiName">   实例化后名称
         /// Resources   状态下     表示预设名称和实例化后名称
@@ -53,27 +53,72 @@ namespace CXLUI
         /// Asset       状态下 assetName表示资源映射Key,resName表示AssetBundle里的资源名称</param>
         /// <param name="parent"></param>
         /// <returns></returns>
-		public static GameObject Load(string uiName, AssetResourecesInfo info, GameObject parent = null)
+		public static GameObject Load(string uiName, /*AssetResourecesInfo info,*/ GameObject parent = null)
 		{
             GameObject child = null;
 
             if (GameGlobalCommunity.Instance.IsAssetType)
             {
-                AssetBundle bundle = AssetLoad.Load(info.assetName);
-                child = GameObject.Instantiate(bundle.Load(info.resName)) as GameObject;
-
-                AddChild(parent, child);
-                child.name = uiName;
+                if (AssetPath.AssetUIPath.ContainsKey(uiName))
+                {
+                    AssetResourecesInfo info = AssetPath.AssetUIPath[uiName];
+                    if (AssetLoad.IsCache(info.assetName))
+                    {
+                        child = GameObject.Instantiate(AssetLoad.Load<GameObject>(info)) as GameObject;
+                        AddChild(parent, child);
+                        child.name = uiName;
+                        //return child;
+                    }
+                    else
+                    {
+                        USERDebug.LogError(string.Format("{0}({1}) 资源不在缓存中!", info.assetName, uiName));
+                    }
+                }
+                else
+                {
+                    USERDebug.LogError(string.Format("{0} 资源不在AssetPath.AssetUIPath中!", uiName));
+                }
             }
             else
             {
-                string path = info.assetName + uiName;
-                child = NGUITools.AddChild(parent, Resources.Load<GameObject>(path));
-                child.name = uiName;
-            }
+                if (AssetPath.ResourecesUIPath.ContainsKey(uiName))
+                {
+                    AssetResourecesInfo info = AssetPath.ResourecesUIPath[uiName];
 
-            //AssetBundle.CreateFromFile
-			return child;
+                    string path = info.assetName + uiName;
+                    child = NGUITools.AddChild(parent, Resources.Load<GameObject>(path));
+                    child.name = uiName;
+                }
+                else
+                {
+                    USERDebug.LogError(string.Format("{0} 资源不在AssetPath.ResourecesUIPath中!", uiName));
+                }
+            }
+            return child;
+
+            //AssetResourecesInfo info = AssetPath.UIPath[uiName];
+
+            //if (GameGlobalCommunity.Instance.IsAssetType)
+            //{
+            //    //  在缓存中
+            //    if (AssetLoad.IsCache(info.assetName))
+            //    {
+            //        child = GameObject.Instantiate(AssetLoad.Load<GameObject>(info)) as GameObject;
+            //        AddChild(parent, child);
+            //        child.name = uiName;
+            //    }
+            //    else
+            //    {
+            //        USERDebug.LogError("目标资源部在缓存中!");           
+            //    }
+            //}
+            //else
+            //{
+            //    string path = info.assetName + uiName;
+            //    child = NGUITools.AddChild(parent, Resources.Load<GameObject>(path));
+            //    child.name = uiName;
+            //}
+            //return child;
 		}
 		
 	

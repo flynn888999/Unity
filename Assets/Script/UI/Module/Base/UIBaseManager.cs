@@ -21,7 +21,7 @@ namespace CXLUI
 			yield break;
 		}
 
-        virtual public GameObject Show(string uiName, AssetResourecesInfo beforPath)
+        virtual public GameObject Show(string uiName/*, AssetResourecesInfo beforPath*/)
 		{
 			return null;
 		}

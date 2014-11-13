@@ -130,13 +130,13 @@ namespace CXLUI
 		{
 			if ( AssetPath.UIPath.ContainsKey(uiName))
 			{
-                return widgetMng.Show(uiName, AssetPath.UIPath[uiName]);
+                return widgetMng.Show(uiName/*, AssetPath.UIPath[uiName]*/);
 			}
             else if (AssetPath.ResourecesUIPath.ContainsKey(uiName))
             {
                 USERDebug.Log(string.Format("{0} AssetBundle 没有该资源尝试从Resources里加载!", uiName));
                 GameGlobalCommunity.Instance.IsAssetType = false;
-                GameObject child = widgetMng.Show(uiName, AssetPath.ResourecesUIPath[uiName]);
+                GameObject child = widgetMng.Show(uiName/*, AssetPath.ResourecesUIPath[uiName]*/);
                 GameGlobalCommunity.Instance.IsAssetType = true;
                 return child;
             }
@@ -152,13 +152,13 @@ namespace CXLUI
 			//throw new System.NotImplementedException ();
             if (AssetPath.UIPath.ContainsKey(uiName))
 			{
-                return dialogMng.ShowDialog(uiName, AssetPath.UIPath[uiName]);
+                return dialogMng.ShowDialog(uiName/*, AssetPath.UIPath[uiName]*/);
 			}
             else if (AssetPath.ResourecesUIPath.ContainsKey(uiName))
             {
                 USERDebug.Log(string.Format("{0} AssetBundle 没有该资源尝试从Resources里加载!", uiName));
                 GameGlobalCommunity.Instance.IsAssetType = false;
-                GameObject child = widgetMng.Show(uiName, AssetPath.ResourecesUIPath[uiName]);
+                GameObject child = widgetMng.Show(uiName/*, AssetPath.ResourecesUIPath[uiName]*/);
                 GameGlobalCommunity.Instance.IsAssetType = true;
                 return child;
             }

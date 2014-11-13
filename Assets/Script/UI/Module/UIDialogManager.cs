@@ -42,11 +42,11 @@ namespace CXLUI
 			yield break;
 		}
 
-        public GameObject ShowDialog(string uiName, AssetResourecesInfo beforPath)
+        public GameObject ShowDialog(string uiName/*, AssetResourecesInfo beforPath*/)
 		{
 			try 
 			{
-				GameObject child = UITool.Load( uiName, beforPath, mObject);
+				GameObject child = UITool.Load( uiName, /*beforPath,*/ mObject);
 
 				Add( child);
 
