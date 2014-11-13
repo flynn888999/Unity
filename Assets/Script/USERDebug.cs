@@ -60,13 +60,14 @@ public abstract class USERDebug  {
     }
 
     [MethodImpl(MethodImplOptions.NoInlining)]
-    public static void PrintCurrentMethod()
+    public static string PrintCurrentMethod()
     {
 #if UNITY_EDITOR_WIN || UNITY_EDITOR_OSX
         System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace();
         System.Diagnostics.StackFrame sf = st.GetFrame(1);
 
-        Debug.Log(string.Format("{0}->{1}", sf.GetMethod().DeclaringType, sf.GetMethod().Name));
+        return string.Format("{0}->{1}", sf.GetMethod().DeclaringType, sf.GetMethod().Name);
+        //Debug.Log();
 #endif
     }
 }
